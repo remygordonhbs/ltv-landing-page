@@ -3,10 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Landing Page</title>
+    <title>Intentional | Maintain Your Network with Purpose</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my first landing page!</p>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Intentional</div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Maintain your professional network with intention</h1>
+            <p>Intentional helps you build meaningful connections by tracking interactions, insights, and reminders.</p>
+            <img src="assets/hero-image.jpg" alt="App Preview" class="hero-image">
+            <form id="early-access-form">
+                <input type="email" id="email-input" placeholder="Enter your email" required>
+                <button type="submit">Request Early Access</button>
+            </form>
+            <div id="confirmation-message" class="hidden">Thanks for signing up! We'll be in touch soon.</div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>Track Relationships</h3>
+                <p>Easily store information about your contacts, including notes, key details, and conversation history.</p>
+            </div>
+            <div class="feature">
+                <h3>Stay Connected</h3>
+                <p>Receive timely reminders when it's been too long since your last interaction with important connections.</p>
+            </div>
+            <div class="feature">
+                <h3>Build with Purpose</h3>
+                <p>Grow a meaningful network that creates genuine opportunities and long-lasting relationships.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What our early users are saying</h2>
+            <div class="testimonial">
+                <img src="assets/testimonial1.jpg" alt="User testimonial">
+                <p>"Intentional transformed the way I maintain my professional relationships—I'm never scrambling to reconnect anymore."</p>
+                <h4>— Alex J., Product Manager</h4>
+            </div>
+            <div class="testimonial">
+                <img src="assets/testimonial2.jpg" alt="User testimonial">
+                <p>"I love the simplicity and clarity. This app genuinely helps me stay connected intentionally."</p>
+                <h4>— Maya S., Consultant</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Intentional. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
